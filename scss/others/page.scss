@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url(/imagens/backgroundLp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+     
+}
+.container1{
+    background-color: $primary-color;
+    width: 450px;
+    height: auto;
+}
+
+.toplogo{
+    width: 180px;
+}
+.paragraph{
+    color: white;
+}
+
+@media (max-width: 485px) {
+    .container1 {
+      width: auto;
+    }
+}
